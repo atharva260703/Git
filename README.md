@@ -4,11 +4,11 @@ class A
 {
   int x;
   int y;
+  int z;
   public:
-   void add();
+   void add()
+   cout<<"Enter three numbers"<<endl;
+   cin>>x;
+   cin>>y;
+   cin>>z;
 };
-void A::add()
-{
-    int z;
-    z = x+y;
-}
